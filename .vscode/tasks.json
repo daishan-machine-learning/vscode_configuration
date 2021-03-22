@@ -9,7 +9,7 @@
           "${workspaceFolder}\\src\\*.cpp",
           "-I",
           "${workspaceFolder}\\include",
-           "-o", "${workspaceFolder}\\bin\\myprogram.exe"
+          "-o", "${workspaceFolder}\\bin\\myprogram.exe"
           ],
         "options": {
           "cwd": "${workspaceFolder}"
