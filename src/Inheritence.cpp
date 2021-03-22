@@ -42,7 +42,7 @@ int main(){
     Derived* pd = &d;
     std::cout<<pd->GetName()<<":"<<pd->GetValue()<<std::endl;
 
-    system("pause");
+    std::cin.get();
 
     return 0;
 }
