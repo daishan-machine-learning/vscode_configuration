@@ -1,3 +1,4 @@
+#if 0
 #include<iostream>
 #include<string>
 #include<string_view>
@@ -106,3 +107,5 @@ int main(){
     std::cin.get();
     return 0;
 }
+
+#endif
