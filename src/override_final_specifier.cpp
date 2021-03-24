@@ -1,3 +1,4 @@
+#if 0
 #include<iostream>
 /*
     之所以需要override，是因为，虚函数的覆盖，是要求返回类型和参数类型和const完全一致，
@@ -68,3 +69,5 @@ int main(){
     std::cout<<ra.getThis()->speak()<< std::endl; // note:ra.getThis()返回B*，但是因为A中原virtual function返回A*，所以B*会向上转换
     std::cin.get();
 }
+
+#endif
