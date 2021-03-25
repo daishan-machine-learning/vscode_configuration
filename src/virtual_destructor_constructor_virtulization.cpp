@@ -1,3 +1,4 @@
+#if 0
 #include<iostream>
 #include<memory>
 /*
@@ -43,3 +44,5 @@ int main(){
 
     std::cin.get();
 }
+
+#endif
